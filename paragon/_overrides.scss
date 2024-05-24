@@ -17,3 +17,49 @@ footer .container-fluid {
     max-width: 100% !important;
     padding: 0;
 }
+p {
+    margin-bottom: 0;
+    font-family: Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color emoji;
+}
+
+footer.footer {
+    position: static !important;
+    min-height: 66px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+}
+
+.footer-logo-container {
+    width: auto;
+    gap: 0;
+}
+
+.footer-links {
+    width: 18% !important;
+    justify-content: flex-end;
+    /* flex-grow: 1; */
+}
+
+.footer-links .footer-nav-link a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color emoji;
+    font-weight: 400;
+}
+
+li.footer-nav-link {
+    width: a !important;
+}
+
+span.copyrights p {
+    font-size: .75rem;
+    padding-left: 0rem;
+    line-height: 1rem;
+}
+span.copyrights p::first-letter {
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+}
