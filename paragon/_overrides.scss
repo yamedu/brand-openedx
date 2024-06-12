@@ -37,7 +37,7 @@ footer.footer {
 
 .footer-links {
     width: 18% !important;
-    justify-content: flex-end;
+    justify-content: flex-end !important;
     /* flex-grow: 1; */
 }
 
@@ -63,3 +63,11 @@ span.copyrights p::first-letter {
     opacity: 0;
     visibility: hidden;
 }
+
+
+footer.footer {
+    height: 60px !important;
+    min-height: 60px !important;
+    padding: 16px 32px !important;
+}
+
